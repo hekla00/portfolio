@@ -1,6 +1,5 @@
 
 import { useState } from 'react'
-import { Switch } from '@headlessui/react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -10,7 +9,7 @@ export default function Example() {
   const [agreed, setAgreed] = useState(false)
 
   return (
-    <div className="px-4 py-16 overflow-hidden bg-white sm:px-6 lg:px-8 lg:py-24">
+    <div className="px-4 py-16 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
       <div className="relative max-w-xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Contact Me</h2>

@@ -1,7 +1,7 @@
 export default function TimelineTwo() {
     return (
         // container
-        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+        <div className="px-2 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-0 lg:py-20">
             {/*component*/}
             <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -16,7 +16,7 @@ export default function TimelineTwo() {
             <div className="flex flex-col grid-cols-9 pt-2 pb-6 mx-auto text-white md:grid">
                 {/*left*/}
                 <div className="flex flex-row-reverse md:contents">
-                    <div className="col-start-1 col-end-5 pl-4 my-4">
+                    <div className="col-start-1 col-end-5 pl-2 my-4">
                         <h3 className="text-sm font-semibold">Date</h3>
                         <h3 className="text-xl font-bold">Company</h3>
                         <h3 className="mb-1 text-lg font-semibold">Location</h3>
@@ -51,7 +51,7 @@ export default function TimelineTwo() {
 
                         </div>
                     </div>
-                    <div className="col-start-6 col-end-10 p-4 my-4 mr-auto">
+                    <div className="col-start-6 col-end-10 pr-2 my-4 mr-auto">
                     <h3 className="text-sm font-semibold">Date</h3>
                         <h3 className="text-xl font-bold">Company</h3>
                         <h3 className="mb-1 text-lg font-semibold">Location</h3>
@@ -67,7 +67,7 @@ export default function TimelineTwo() {
                 {/*left*/}
                 <div className="flex flex-row-reverse md:contents">
                     <div
-                        className="col-start-1 col-end-5 p-4 my-4 ml-auto"
+                        className="col-start-1 col-end-5 pl-2 my-4 ml-auto"
                     >
                         <h3 className="text-sm font-semibold">Date</h3>
                         <h3 className="text-xl font-bold">Company</h3>
@@ -100,7 +100,7 @@ export default function TimelineTwo() {
                         ></div>
                     </div>
                     <div
-                        className="col-start-6 col-end-10 p-4 my-4 mr-auto"
+                        className="col-start-6 col-end-10 pr-2 my-4 mr-auto"
                     >
                         <h3 className="text-sm font-semibold">Date</h3>
                         <h3 className="text-xl font-bold">Company</h3>

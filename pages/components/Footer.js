@@ -1,6 +1,6 @@
 export default function Footer() {
         return (
-          <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-2 lg:px-2">
+          <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-2 lg:px-0">
             <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
               <div className="sm:col-span-2">
                 <a
@@ -126,14 +126,6 @@ export default function Footer() {
                     href="/"
                     className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    F.A.Q
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                  >
                     Privacy Policy
                   </a>
                 </li>
@@ -149,4 +141,4 @@ export default function Footer() {
             </div>
           </div>
         );
-      };
+      }

@@ -1,5 +1,9 @@
+import { HashLink } from "react-router-hash-link";
+
 export default function Timeline() {
   return (
+    <div>
+    <section id="timeline">
     <div className="container px-4 mx-auto sm:px-6 lg:px-8">
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-md md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -165,6 +169,13 @@ export default function Timeline() {
         </div>
       </div>
     </div>
+    <p>
+      <a href="#timeline">
+        top
+      </a>
+    </p>
+    </div>
+    </section>
     </div>
   );
 }
