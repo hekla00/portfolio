@@ -8,13 +8,14 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import TimelineTwo from "./components/Timeline";
 import Scroll from "react-scroll";
+import ScrollToTop from "react-scroll-to-top";
 
 const ScrollLink = Scroll.ScrollLink;
 
 export default function Layout() {
   const [menu, setMenu] = useState(false);
   return (
-    <div className="bg-rosyBrown text-ghostWhite">
+    <div className="bg-darkVanilla text-black">
       <nav className="relative z-50 lg:hidden">
         <div className="flex items-center justify-between px-4 py-2">
           <div className="flex flex-wrap pt-2 justify-left">
@@ -142,14 +143,10 @@ export default function Layout() {
             {/* <div className="w-2/12 lg:w-4/12">
                                 <img src="/logo.png" className="h-auto max-w-full border-none rounded shadow-lg align-left" />
                             </div> */}
-            <button>
-              <h1 className="font-bold text-ghostWhite">
-                {" "}
-                Hekla A. Samuelsdottir
-              </h1>
-            </button>
+
+            <h1 className="font-bold text-black"> Hekla A. Samuelsdottir</h1>
           </div>
-          <div className="flex items-center text-lg font-bold text-ghostWhite ">
+          <div className="flex items-center text-lg font-bold text-black ">
             <ul className="flex items-center pr-3 xl:pr-12">
               <li className="pl-3 cursor-pointer lg:pl-5 xl:pl-8">
                 <a href="#About">About Me</a>
