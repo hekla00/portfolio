@@ -18,20 +18,9 @@ export default function Skills() {
       </div>
       <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            {/* <a href="https://iconscout.com/icons/python" target="_blank">Python Glyph Icon</a> by <a href="https://iconscout.com/contributors/benjamin-j-sperry">Benjamin J Sperry</a> on <a href="https://iconscout.com">Iconscout</a> */}
+            <img src={"./icons/python.svg"} />
           </div>
           <h6 className="mb-2 font-semibold leading-5">Python</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
@@ -40,44 +29,20 @@ export default function Skills() {
           </p>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            {/* <a href="https://iconscout.com/icons/javascript" target="_blank">Javascript Icon</a> by <a href="https://iconscout.com/contributors/benjamin-j-sperry">Benjamin J Sperry</a> on <a href="https://iconscout.com">Iconscout</a> */}
+            <img src={"./icons/javascript.svg"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">
-            JavaScript, HTML, CSS
-          </h6>
+          <h6 className="mb-2 font-semibold leading-5">JavaScript</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
             Satoshi Nakamoto launched lots of decentralisation when Litecoin
             required
           </p>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            {/* <a href="https://iconscout.com/icons/react" target="_blank">React Glyph Icon</a> by <a href="https://iconscout.com/contributors/vorillaz">Vorillaz</a> on <a href="https://iconscout.com">Iconscout</a> */}
+            <img src={"./icons/react.svg"} />
           </div>
           <h6 className="mb-2 font-semibold leading-5">Reactjs</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
@@ -86,137 +51,68 @@ export default function Skills() {
           </p>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            <img src={"./icons/nodejs.png"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">...</h6>
+          <h6 className="mb-2 font-semibold leading-5">Node.js</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            {/* https://vercel.com/design/nextjs */}
+            <img src={"./icons/nextjs.svg"} />
           </div>
-          <h6 className="mb-2 font-semibold leading-5">...</h6>
+          <h6 className="mb-2 font-semibold leading-5">Next.js</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            {/* <a href="https://iconscout.com/icons/code" target="_blank">Code Glyph Icon</a> by <a href="https://iconscout.com/contributors/useiconic">Useiconic</a> on <a href="https://iconscout.com">Iconscout</a> */}
+            <img src={"./icons/code.svg"} />
+          </div>
+          <h6 className="mb-2 font-semibold leading-5">HTML & CSS</h6>
+          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
+            Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
+            mechad
+          </p>
+        </div>
+        {/* More Skills Below */}
+        {/* <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            <img />
           </div>
           <h6 className="mb-2 font-semibold leading-5">...</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-        </div>
-        <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+        </div> */}
+        {/* <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            <img />
           </div>
           <h6 className="mb-2 font-semibold leading-5">...</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-        </div>
-        <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
+        </div> */}
+        {/* <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
+            <img />
           </div>
           <h6 className="mb-2 font-semibold leading-5">...</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-        </div>
-        <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">...</h6>
-          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-            Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
-            mechad
-          </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-function IndexPage() {
+export default function Hero() {
   return (
     <>
       <div id="Hero" name="Hero" className="container mx-auto sm:px-6 lg:px-28">
@@ -24,5 +24,3 @@ function IndexPage() {
     </>
   );
 }
-
-export default IndexPage;

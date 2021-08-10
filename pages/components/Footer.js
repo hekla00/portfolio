@@ -1,14 +1,19 @@
 import Scroll from "react-scroll";
 
+var scroll = Scroll.animateScroll;
+
 const ScrollLink = Scroll.ScrollLink;
 
 export default function Footer() {
+  function scrollToTop() {
+    scroll.scrollToTop();
+  }
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-2 lg:px-0">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-2">
         <div className="space-y-2 text-sm">
           <p className="text-base font-bold tracking-wide text-gray-900">
-            Contacts
+            <a onClick={() => scrollToTop()}>Back to top</a>
           </p>
         </div>
         <div>

@@ -9,7 +9,7 @@ export default function About() {
         <div>
           <img
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src={"./images/profile.jpeg"}
             alt=""
           />
         </div>

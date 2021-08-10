@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
 import {
   AnnotationIcon,
   ChatAlt2Icon,
@@ -8,41 +8,47 @@ import {
   MenuIcon,
   QuestionMarkCircleIcon,
   XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+} from "@heroicons/react/outline";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const solutions = [
   {
-    name: 'Inbox',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    name: "Inbox",
+    description:
+      "Get a better understanding of where your traffic is coming from.",
+    href: "#",
     icon: InboxIcon,
   },
   {
-    name: 'Messaging',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
+    name: "Messaging",
+    description: "Speak directly to your customers in a more meaningful way.",
+    href: "#",
     icon: AnnotationIcon,
   },
-  { name: 'Live Chat', description: "Your customers' data will be safe and secure.", href: '#', icon: ChatAlt2Icon },
   {
-    name: 'Knowledge Base',
+    name: "Live Chat",
+    description: "Your customers' data will be safe and secure.",
+    href: "#",
+    icon: ChatAlt2Icon,
+  },
+  {
+    name: "Knowledge Base",
     description: "Connect with third-party tools that you're already using.",
-    href: '#',
+    href: "#",
     icon: QuestionMarkCircleIcon,
   },
-]
+];
 const navigation = [
-  { name: 'Pricing', href: '#' },
-  { name: 'Partners', href: '#' },
-  { name: 'Company', href: '#' },
-]
+  { name: "Pricing", href: "#" },
+  { name: "Partners", href: "#" },
+  { name: "Company", href: "#" },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Header() {
   return (
     <div className="min-h-screen bg-white">
       <header>
@@ -72,15 +78,15 @@ export default function Example() {
                       <>
                         <Popover.Button
                           className={classNames(
-                            open ? 'text-gray-900' : 'text-gray-500',
-                            'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                            open ? "text-gray-900" : "text-gray-500",
+                            "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                           )}
                         >
                           <span>Solutions</span>
                           <ChevronDownIcon
                             className={classNames(
-                              open ? 'text-gray-600' : 'text-gray-400',
-                              'ml-2 h-5 w-5 group-hover:text-gray-500'
+                              open ? "text-gray-600" : "text-gray-400",
+                              "ml-2 h-5 w-5 group-hover:text-gray-500"
                             )}
                             aria-hidden="true"
                           />
@@ -109,11 +115,18 @@ export default function Example() {
                                     className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50"
                                   >
                                     <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-600 rounded-md sm:h-12 sm:w-12">
-                                      <item.icon className="w-6 h-6" aria-hidden="true" />
+                                      <item.icon
+                                        className="w-6 h-6"
+                                        aria-hidden="true"
+                                      />
                                     </div>
                                     <div className="ml-4">
-                                      <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                      <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                      <p className="text-base font-medium text-gray-900">
+                                        {item.name}
+                                      </p>
+                                      <p className="mt-1 text-sm text-gray-500">
+                                        {item.description}
+                                      </p>
                                     </div>
                                   </a>
                                 ))}
@@ -136,7 +149,10 @@ export default function Example() {
                   ))}
                 </Popover.Group>
                 <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
-                  <a href="#" className="text-base font-medium text-gray-500 whitespace-nowrap hover:text-gray-900">
+                  <a
+                    href="#"
+                    className="text-base font-medium text-gray-500 whitespace-nowrap hover:text-gray-900"
+                  >
                     Sign in
                   </a>
                   <a
@@ -189,9 +205,14 @@ export default function Example() {
                               className="flex items-center p-3 -m-3 rounded-lg hover:bg-gray-50"
                             >
                               <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white bg-indigo-600 rounded-md">
-                                <item.icon className="w-6 h-6" aria-hidden="true" />
+                                <item.icon
+                                  className="w-6 h-6"
+                                  aria-hidden="true"
+                                />
                               </div>
-                              <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
+                              <div className="ml-4 text-base font-medium text-gray-900">
+                                {item.name}
+                              </div>
                             </a>
                           ))}
                         </nav>
@@ -249,12 +270,17 @@ export default function Example() {
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                   <h1 className="text-4xl font-extrabold tracking-tight text-center sm:text-5xl lg:text-6xl">
-                    <span className="block text-white">Take control of your</span>
-                    <span className="block text-indigo-200">customer support</span>
+                    <span className="block text-white">
+                      Take control of your
+                    </span>
+                    <span className="block text-indigo-200">
+                      customer support
+                    </span>
                   </h1>
                   <p className="max-w-lg mx-auto mt-6 text-xl text-center text-indigo-200 sm:max-w-3xl">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                    amet fugiat veniam occaecat fugiat aliqua.
+                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
+                    qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
+                    occaecat fugiat aliqua.
                   </p>
                   <div className="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
@@ -285,10 +311,18 @@ export default function Example() {
               </p>
               <div className="grid grid-cols-2 gap-8 mt-6 md:grid-cols-6 lg:grid-cols-5">
                 <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                  <img
+                    className="h-12"
+                    src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
+                    alt="Tuple"
+                  />
                 </div>
                 <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                  <img
+                    className="h-12"
+                    src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
+                    alt="Mirage"
+                  />
                 </div>
                 <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
                   <img
@@ -319,5 +353,5 @@ export default function Example() {
         {/* More main page content here... */}
       </main>
     </div>
-  )
+  );
 }
