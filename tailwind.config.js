@@ -13,7 +13,7 @@ module.exports = {
           DEFAULT: "#F9F9F9",
         },
         water: {
-          DEFAULT: "#D0EAFA",
+          DEFAULT: "#C3B8AA",
         },
         purple: {
           DEFAULT: "#C5D2EF",

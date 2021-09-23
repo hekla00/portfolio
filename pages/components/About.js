@@ -3,12 +3,12 @@ export default function About() {
     <div
       id="About"
       name="About"
-      className="py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:pl-7 lg:py-20"
+      className="py-18 pb-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:pl-7 lg:py-24"
     >
       <div className="grid gap-10 grid-cols-2">
         <div>
           <img
-            className="object-cover w-full h-full rounded shadow-lg sm:h-80 sm:w-50"
+            className="object-cover w-full h-full rounded shadow-lg sm:h-70 sm:w-50"
             src={"./images/profile.jpeg"}
             alt=""
           />
@@ -22,11 +22,27 @@ export default function About() {
             of Science (Honours) in Computer Science and Information Technology
             at the National University of Ireland Galway (NUIG).
           </p>
+          <p className="mb-6 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Modi, quaerat? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Modi, quaerat? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Modi,
+          </p>
+          <p className="mb-6 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Modi, quaerat? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Modi, quaerat? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Modi,
+          </p>
           {/* <p className="mb-6 text-center">My interests include</p> */}
           <div className="flex justify-center">
             <div className="px-2 space-x-4">
               <a
                 href="https://twitter.com/HeklaAlexia"
+                // Opens link in new tab
+                target="_blank"
                 className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -37,6 +53,7 @@ export default function About() {
             <div className="px-2 space-x-4">
               <a
                 href="https://www.linkedin.com/in/hekla-sam%C3%BAelsd%C3%B3ttir00/"
+                target="_blank"
                 className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 <span className="sr-only">LinkedIn</span>
@@ -57,6 +74,7 @@ export default function About() {
             <div className="px-2 space-x-4">
               <a
                 href="https://github.com/hekla00"
+                target="_blank"
                 className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
                 <span className="sr-only">Github</span>

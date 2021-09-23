@@ -48,7 +48,9 @@ export default function Timeline() {
             <div className="absolute w-6 h-6 -mt-3 bg-black rounded-full shadow top-1/2"></div>
           </div>
           <div className="col-start-6 col-end-10 pr-2 my-4 mr-auto">
-            <h3 className="text-sm font-semibold">September 2021 - Present</h3>
+            <h3 className="text-sm font-semibold">
+              September 2021 - Present(2024)
+            </h3>
             <h3 className="text-xl font-bold">
               Bachelor of Science Computer Science & Information Technology
             </h3>
@@ -80,9 +82,6 @@ export default function Timeline() {
                 <li>
                   Worked with API's from a backend system that utilizes GraphQL
                 </li>
-                <li>
-                  Modified the backend written in Python-based Django framework
-                </li>
               </ul>
             </p>
           </div>
@@ -105,14 +104,15 @@ export default function Timeline() {
             <h3 className="text-sm font-semibold">
               September 2020 - June 2021
             </h3>
-            <h3 className="text-xl font-bold">Bachelor of Science</h3>
+            <h3 className="text-xl font-bold">
+              Bachelor of Science General Science
+            </h3>
             <h3 className="mb-1 text-lg font-semibold">Galway, Ireland</h3>
             <p className="leading-tight text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-              quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Modi, quaerat? Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Modi, quaerat? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Modi,
+              1st year modules: Computer Science, Physics, Applied Mathematics,
+              Mathematical Studies. After completing my first year studying
+              general science I transferred to computer science and information
+              technology course at NUIG.
             </p>
           </div>
         </div>

@@ -20,6 +20,8 @@ export default function Footer() {
           <div className="flex items-center mt-1 space-x-3">
             <a
               href="https://twitter.com/HeklaAlexia"
+              // Opens link in new tab
+              target="_blank"
               className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -28,6 +30,7 @@ export default function Footer() {
             </a>
             <a
               href="https://github.com/hekla00"
+              target="_blank"
               className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <span className="sr-only">Github</span>
@@ -43,6 +46,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/hekla-sam%C3%BAelsd%C3%B3ttir00/"
+              target="_blank"
               className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <span className="sr-only">LinkedIn</span>
