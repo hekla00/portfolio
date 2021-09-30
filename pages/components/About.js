@@ -14,13 +14,13 @@ export default function About() {
           />
         </div>
         <div className="lg:pr-10">
-          <h5 className="mb-4 text-4xl font-extrabold leading-none text-center sm:text-2xl ">
+          <h5 className="mb-4 text-4xl font-extrabold leading-none text-center sm:text-2xl xl:text-5xl">
             About Me
           </h5>
           <p className="mb-6 text-center">
             I am currently a undergraduate student working towards my Bachelor
             of Science (Honours) in Computer Science and Information Technology
-            at the National University of Ireland Galway (NUIG).
+            at the National University of Ireland, Galway (NUIG).
           </p>
           <p className="mb-6 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,

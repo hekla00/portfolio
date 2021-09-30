@@ -24,8 +24,18 @@ export default function Skills() {
           </div>
           <h6 className="mb-2 font-semibold leading-5">Python</h6>
           <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-            Cheese on toast airedale the big cheese. Danish fontina cheesy grin
-            airedale danish
+            I started learning Python the summer before college by completing
+            the Udemy course{" "}
+            <a
+              className="font-bold"
+              href="https://www.udemy.com/course/pythontutorial/"
+              target="_blank"
+            >
+              "Python Complete Masterclass for beginners"
+            </a>
+            by Mihai Catalin Teodosin. During my first year of college, I also
+            learned Python, and I was introduced to the following libraries:
+            NumPy, pandas and matplotlib.
           </p>
         </div>
         <div className="sm:text-center">

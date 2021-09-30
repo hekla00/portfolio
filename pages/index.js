@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import TimelineTwo from "./components/Timeline";
 import Scroll from "react-scroll";
-import ScrollToTop from "react-scroll-to-top";
 
 const ScrollLink = Scroll.ScrollLink;
 
@@ -144,7 +143,10 @@ export default function Layout() {
                                 <img src="/logo.png" className="h-auto max-w-full border-none rounded shadow-lg align-left" />
                             </div> */}
 
-            <h1 className="font-bold text-black"> Hekla A. Samuelsdottir</h1>
+            <h1 className="font-bold text-black text-3xl">
+              {" "}
+              Hekla A. Samuelsdottir
+            </h1>
           </div>
           <div className="flex items-center text-lg font-bold text-black ">
             <ul className="flex items-center pr-3 xl:pr-12">
