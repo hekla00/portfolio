@@ -82,8 +82,8 @@ export default function Skills() {
             mechad
           </p>
         </div>
-        {/* More Skills Below */}
-        {/* <div className="sm:text-center">
+        {/* More Skills Below  */}
+        <div className="sm:text-center">
           <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
             <img />
           </div>
@@ -92,8 +92,8 @@ export default function Skills() {
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-        </div> */}
-        {/* <div className="sm:text-center">
+        </div>
+        <div className="sm:text-center">
           <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
             <img />
           </div>
@@ -102,8 +102,8 @@ export default function Skills() {
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-        </div> */}
-        {/* <div className="sm:text-center">
+        </div>
+        <div className="sm:text-center">
           <div className="flex items-center justify-center w-16 h-16 mb-4 sm:mx-auto sm:w-24 sm:h-24">
             <img />
           </div>
@@ -112,7 +112,7 @@ export default function Skills() {
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
