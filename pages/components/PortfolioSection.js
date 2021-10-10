@@ -13,11 +13,11 @@ export default function PortfolioSection() {
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
-            <span className="relative">Personal Projects</span>
+            <span className="relative">Projects</span>
           </span>{" "}
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Here you can see some of the projects I have done on my own time
+          Here you can see some of the projects I have done
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 mb-6 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">

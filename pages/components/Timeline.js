@@ -1,6 +1,5 @@
 export default function Timeline() {
   return (
-    // container
     <div
       id="Timeline"
       name="Timeline"
@@ -56,11 +55,11 @@ export default function Timeline() {
             </h3>
             <h3 className="mb-1 text-lg font-semibold">Galway, Ireland</h3>
             <p className="leading-tight text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-              quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Modi, quaerat? Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Modi, quaerat? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Modi, quaerat?
+              2nd year modules: OOP, Computer Systems & Organization, Software
+              Engineering, Database Systems, Next Gen. Technologies (Cyber
+              Security & Game Programming), Discrete Maths, Statistics for Data
+              Science, OOP: Data Structures & Algorithms, Networks & Data
+              Communications, Introduction to Modelling, Linear Algebra.
             </p>
           </div>
         </div>
