@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import TimelineTwo from "./components/Timeline";
 import Scroll from "react-scroll";
+import Certifications from "./components/Certifications";
 
 const ScrollLink = Scroll.ScrollLink;
 
@@ -174,6 +175,7 @@ export default function Layout() {
       <Skills />
       <PortfolioSection />
       <TimelineTwo />
+      <Certifications />
       <Contact />
       <Footer />
     </div>

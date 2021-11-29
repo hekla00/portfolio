@@ -54,7 +54,7 @@ export default function Timeline() {
               Bachelor of Science Computer Science & Information Technology
             </h3>
             <h3 className="mb-1 text-lg font-semibold">Galway, Ireland</h3>
-            <p className="leading-tight text-justify">
+            <p className="leading-tight text-justify text-gray-600">
               2nd year modules: OOP, Computer Systems & Organization, Software
               Engineering, Database Systems, Next Gen. Technologies (Cyber
               Security & Game Programming), Discrete Maths, Statistics for Data
@@ -69,7 +69,7 @@ export default function Timeline() {
             <h3 className="text-sm font-semibold">June 2021 - August 2021</h3>
             <h3 className="text-xl font-bold">First Internship</h3>
             <h3 className="mb-1 text-lg font-semibold">Remote</h3>
-            <p className="leading-tight text-justify">
+            <p className="leading-tight text-justify text-gray-600">
               During the summer of 2021, I was an intern at Opin Kerfi hf, where
               my main task was to rewrite a web user interface of an application
               developed in-house. During the internship, I did the following:
@@ -107,7 +107,7 @@ export default function Timeline() {
               Bachelor of Science General Science
             </h3>
             <h3 className="mb-1 text-lg font-semibold">Galway, Ireland</h3>
-            <p className="leading-tight text-justify">
+            <p className="leading-tight text-justify text-gray-600">
               1st year modules: Computer Science, Physics, Applied Mathematics,
               Mathematical Studies. After completing my first year studying
               general science I transferred to computer science and information
