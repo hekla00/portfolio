@@ -16,7 +16,7 @@ export default function Timeline() {
           Summary of my education and work experience
         </p>
       </div>
-      <div className="flex flex-col grid-cols-9 pt-2 pb-6 mx-auto text-black md:grid">
+      <div className="flex flex-col grid-cols-9 pt-2 pb-6 mx-auto text-black md:grid px-4">
         {/*left*/}
         {/* <div className="flex flex-row-reverse md:contents">
           <div className="col-start-1 col-end-5 pl-2 my-4">

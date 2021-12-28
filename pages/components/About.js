@@ -3,9 +3,9 @@ export default function About() {
     <div
       id="About"
       name="About"
-      className="py-18 pb-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:pl-7 lg:py-24"
+      className="py-18 pb-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-18 lg:py-24"
     >
-      <div className="grid gap-10 grid-cols-2">
+      <div className="grid gap-10 grid-cols-1 lg:grid-cols-2 px-4">
         <div>
           <img
             className="object-cover w-full h-full rounded shadow-lg sm:h-70 sm:w-50"
@@ -23,18 +23,18 @@ export default function About() {
             at the National University of Ireland, Galway (NUIG).
           </p>
           <p className="mb-6 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-            quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Modi, quaerat? Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Modi, quaerat? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Modi,
+            I am a hardworking individual with good skills in problem-solving
+            and communication. I am currently seeking a summer internship (10 -
+            14 weeks) to gain more knowledge and experience within the
+            technology industry, especially in software development and software
+            engineering.
           </p>
           <p className="mb-6 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-            quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Modi, quaerat? Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Modi, quaerat? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Modi,
+            I am a passionate and determined person who works to achieve my
+            goals. My work ethic includes being organized and disciplined to
+            reach my full potential on any task or project. Also, being
+            responsible for working to the best of my abilities while still
+            learning and growing
           </p>
           <div className="flex justify-center">
             <div className="px-2 space-x-4">

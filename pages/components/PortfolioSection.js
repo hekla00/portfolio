@@ -20,7 +20,7 @@ export default function PortfolioSection() {
           Here you can see some of the projects I have done
         </p>
       </div>
-      <div className="grid gap-8 row-gap-5 mb-6 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
+      <div className="grid gap-8 row-gap-5 mb-6 px-4 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2 md:px-6 lg:px-8">
         <a href="/" aria-label="View Item">
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img

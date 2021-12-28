@@ -19,12 +19,12 @@ export default function Layout() {
       <nav className="relative z-50 lg:hidden">
         <div className="flex items-center justify-between px-4 py-2">
           <div className="flex flex-wrap pt-2 justify-left">
-            <div className="w-2/12 lg:w-4/12">
+            {/* <div className="w-2/12 lg:w-4/12">
               <img
                 src="/logo.png"
                 className="h-auto max-w-full border-none rounded shadow-lg align-left"
               />
-            </div>
+            </div> */}
           </div>
           <div className="flex items-center visible">
             <ul

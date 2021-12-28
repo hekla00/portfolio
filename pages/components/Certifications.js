@@ -15,7 +15,7 @@ export default function Certifications() {
           Summary of my certifications
         </p>
       </div>
-      <fieldset className="border-t border-b border-gray-200">
+      <fieldset className="border-t border-b border-gray-200 pl-4">
         <div className="divide-y divide-gray-200">
           <div className="relative flex items-start py-4">
             <div className="min-w-0 flex-1 text-sm">
