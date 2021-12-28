@@ -3,7 +3,7 @@ export default function About() {
     <div
       id="About"
       name="About"
-      className="py-18 pb-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-18 lg:py-24"
+      className="py-18 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-12 lg:py-24"
     >
       <div className="grid gap-10 grid-cols-1 lg:grid-cols-2 px-4">
         <div>

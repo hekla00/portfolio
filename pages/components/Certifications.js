@@ -7,15 +7,15 @@ export default function Certifications() {
     >
       <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-          <span className="relative inline-block items-center">
+          <span className="relative inline-block items-center px-4">
             <span className="relative">Certifications</span>
           </span>{" "}
         </h2>
-        <p className="text-base items-center text-gray-700 md:text-lg">
+        <p className="text-base items-center text-gray-700 md:text-lg px-4">
           Summary of my certifications
         </p>
       </div>
-      <fieldset className="border-t border-b border-gray-200 pl-4">
+      <fieldset className="border-t border-b border-gray-200 px-4">
         <div className="divide-y divide-gray-200">
           <div className="relative flex items-start py-4">
             <div className="min-w-0 flex-1 text-sm">
