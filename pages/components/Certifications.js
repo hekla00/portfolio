@@ -38,7 +38,7 @@ export default function Certifications() {
             </h2>
             <h3 className="mb-1 font-semibold">Udemy</h3>
             <p className="text-gray-600">
-              I started learning Python the summer before college by taking this
+              Learned Python the summer before college by completing this
               course.
             </p>
           </div>
@@ -51,9 +51,10 @@ export default function Certifications() {
             </h2>
             <h3 className="mb-1 font-semibold">edX</h3>
             <p className="text-gray-600">
-              During the second semester of my first year of college, I decided
-              to take this course to learn more about middle-level languages as
-              I had only been learning high-level languages so far.
+              Learned how to declare, initialise, and modify variables of
+              different data types, use for-loops, and create and comment simple
+              C-programs that can print text, special characters, and variables
+              to the screen.
             </p>
           </div>
         </div>
@@ -65,10 +66,8 @@ export default function Certifications() {
             </h2>
             <h3 className="mb-1 font-semibold">Udemy</h3>
             <p className="text-gray-600">
-              I started this course during the summer before college as well. In
-              this course, I was introduced and taught the following: HTML, CSS,
-              JavaScript, DOM manipulation, Git, GitHub, NPM, React.js, APIs,
-              Node.js.
+              Learned HTML, CSS, JavaScript, DOM manipulation, Git, GitHub, NPM,
+              React.js, APIs, Node.js in this course.
             </p>
           </div>
         </div>

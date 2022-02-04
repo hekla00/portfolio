@@ -7,17 +7,29 @@ export default function PortfolioSection() {
     >
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p className="inline-block px-2 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
             Portfolio
           </p>
         </div>
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 px-2 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <span className="relative">Projects</span>
           </span>{" "}
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        {/* <p className="text-base text-gray-700 md:text-lg px-2">
           Here you can see some of the projects I have done
+        </p> */}
+        <p className="text-base text-gray-700 md:text-lg px-2">
+          Currently working on this section. In the meantime, please head over
+          to my{" "}
+          <a
+            className="font-bold"
+            href="https://github.com/hekla00"
+            target="_blank"
+          >
+            GitHub page
+          </a>{" "}
+          to see my projects
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 mb-6 px-4 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2 md:px-6 lg:px-8">
@@ -49,12 +61,12 @@ export default function PortfolioSection() {
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
-                Project Name
+                Space Invaders Game
               </p>
               <p className="text-sm tracking-wide text-gray-300">
-                Vincent Van Gogh’s most popular painting, The Starry Night was
-                created by Van Gogh at the asylum in Saint-Rémy, where he’d
-                committed himself in 1889.
+                As part of our coursework in the second year, we developed a
+                Space Invaders game using Java. This project helped me better
+                understand Java and how to use Java to create games.
               </p>
             </div>
           </div>
@@ -68,13 +80,15 @@ export default function PortfolioSection() {
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
-                Project Name
+                Galway App for Fitness (GAFF).
               </p>
               <p className="text-sm tracking-wide text-gray-300">
-                Opulently gilded and extravagantly patterned, The Kiss, Gustav
-                Klimt’s fin-de-siècle portrayal of intimacy, is a mix of
-                Symbolism and Vienna Jugendstil, the Austrian variant of Art
-                Nouveau.
+                Currently, developing a web application to help coaches manage
+                and communicate with their players as a part of a group project
+                with five team members that implemented user signup and login,
+                chat functionality, calendar. Technologies used JavaScript,
+                Vue.js, Node.js, Nuxt.js, Firebase and Bootstrap. I am
+                responsible for the user authentication and landing page.
               </p>
             </div>
           </div>
