@@ -52,7 +52,7 @@ export default function Layout() {
       <PortfolioSection />
       <TimelineTwo />
       <Certifications />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );
