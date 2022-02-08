@@ -46,9 +46,9 @@ export default function Layout() {
                 <li className="pl-3 cursor-pointer lg:pl-5 xl:pl-8">
                   <Link href="#Certifications">Certifications</Link>
                 </li>
-                <li className="pl-3 cursor-pointer lg:pl-5 xl:pl-8">
+                {/* <li className="pl-3 cursor-pointer lg:pl-5 xl:pl-8">
                   <Link href="#Contact">Contact</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
