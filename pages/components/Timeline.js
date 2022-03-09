@@ -78,15 +78,16 @@ export default function Timeline() {
                 Reykjavík, Iceland.
               </li>
               <li>
-                Worked with API's from a backend system that utilizes GraphQL
-              </li>
-              <li>
                 Redesigned a standard React app that used Patternfly UI kit to
-                Tailwind UI kit in a Next.js, React.js based app.
+                Tailwind UI kit in a Next.js, React.js app.
               </li>
               <li>
-                Gained skills in the following technologies: React.js, Next.js,
-                GraphQL and Tailwind CSS.
+                Utilized GraphQL API to fetch data from the backend, written in
+                Django and data was stored in PostgreSQL database.
+              </li>
+              <li>
+                Cultivated an in-depth understanding of new technologies:
+                React.js, Next.js, GraphQL and Tailwind CSS.
               </li>
             </ul>
           </div>

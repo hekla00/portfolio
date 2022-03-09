@@ -23,18 +23,14 @@ export default function About() {
             at the National University of Ireland, Galway (NUIG).
           </p>
           <p className="mb-6 text-center">
-            I am a hardworking individual with good skills in problem-solving
-            and communication. I am currently seeking a summer internship (10 -
-            14 weeks) to gain more knowledge and experience within the
-            technology industry, especially in software development and software
-            engineering.
+            Excellent communication skills from experience working in a
+            customer-focused environment. Accomplished problem solver, who has
+            developed their abilities through the degree.
           </p>
           <p className="mb-6 text-center">
-            I am a passionate and determined person who works to achieve my
-            goals. My work ethic includes being organized and disciplined to
-            reach my full potential on any task or project. Also, being
-            responsible for working to the best of my abilities while still
-            learning and growing
+            Hardworking individual, whose work ethic is centred around being
+            organized and disciplined in order to achieve full potential when
+            applied to any task/project.
           </p>
           <div className="flex justify-center">
             <div className="px-2 space-x-4">

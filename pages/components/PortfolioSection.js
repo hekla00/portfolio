@@ -44,11 +44,7 @@ export default function PortfolioSection() {
               <p className="mb-4 text-lg font-bold text-gray-100">
                 Project Name
               </p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Painted between 1503 and 1517, Da Vinci’s alluring portrait has
-                been dogged by two questions since the day it was made: Who’s
-                the subject and why is she smiling?
-              </p>
+              <p className="text-sm tracking-wide text-gray-300"></p>
             </div>
           </div>
         </a>
@@ -64,9 +60,9 @@ export default function PortfolioSection() {
                 Space Invaders Game
               </p>
               <p className="text-sm tracking-wide text-gray-300">
-                As part of our coursework in the second year, we developed a
-                Space Invaders game using Java. This project helped me better
-                understand Java and how to use Java to create games.
+                Developed Space Invaders game using. Java as part of second-year
+                coursework. The project required an in-depth understanding of
+                Java and its applications to game development.
               </p>
             </div>
           </div>
@@ -83,12 +79,14 @@ export default function PortfolioSection() {
                 Galway App for Fitness (GAFF).
               </p>
               <p className="text-sm tracking-wide text-gray-300">
-                Currently, developing a web application to help coaches manage
-                and communicate with their players as a part of a group project
-                with five team members that implemented user signup and login,
-                chat functionality, calendar. Technologies used JavaScript,
-                Vue.js, Node.js, Nuxt.js, Firebase and Bootstrap. I am
-                responsible for the user authentication and landing page.
+                Developing a web application to help coaches manage and
+                communicate with their players as a part of a group project with
+                five team members. The project involves implementing user signup
+                and login, chat functionality and calendar. Technologies used in
+                the project included JavaScript, Vue.js, Node.js, Nuxt.js,
+                Firebase and Bootstrap. Individual responsibility involves
+                creating the user authentication, landing page, navigation bar
+                and dropdown.
               </p>
             </div>
           </div>
@@ -102,13 +100,9 @@ export default function PortfolioSection() {
             />
             <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-4 text-lg font-bold text-gray-100">
-                The Harvesters
+                Project name
               </p>
-              <p className="text-sm tracking-wide text-gray-300">
-                Bruegel’s fanfare for the common man is considered one of the
-                defining works of Western art. This composition was one of six
-                created on the theme of the seasons.
-              </p>
+              <p className="text-sm tracking-wide text-gray-300"></p>
             </div>
           </div>
         </a>
